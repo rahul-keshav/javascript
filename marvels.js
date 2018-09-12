@@ -10,3 +10,10 @@ console.log('we have '+superHeros.length+' superheroes')
 console.log(`We have ${superHeros.length} super heroes`)
 
 console.log(`Last super hero is-> ${superHeros[superHeros.length-1]}.`)
+
+const numbers= ['one','two','three','four','five','six']
+numbers.shift()
+console.log(numbers.shift())
+console.log(numbers)
+numbers.unshift('1')
+console.log(numbers)
